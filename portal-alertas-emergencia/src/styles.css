@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212; /* Fundo preto */
+    color: white; /* Texto branco */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Container principal */
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 24px;
+    color: #00aaff;
+  }
+  
+  /* Input e botão */
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #00aaff;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+  }
+  
+  button {
+    padding: 10px;
+    background: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0088cc;
+  }
+  
+  /* Alertas */
+  .alert-container {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 0, 0, 0.2);
+    border: 1px solid red;
+  }
+  
+  .alert-title {
+    font-weight: bold;
+    color: red;
+  }
+  
